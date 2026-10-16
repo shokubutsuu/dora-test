@@ -8,4 +8,4 @@ nodes:
   - id: receiver
     path: receiver/main.py
     inputs:
-      tick: outer-module/tick
+      tick: module/tick
