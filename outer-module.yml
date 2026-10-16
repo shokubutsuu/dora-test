@@ -1,0 +1,12 @@
+module:
+  name: outer-module
+  outputs: 
+    - tick
+
+nodes:
+  - id: controller
+    path: controller/main.py
+    inputs:
+      interval: dora/timer/secs/1
+    outputs:
+      - tick

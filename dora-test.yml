@@ -1,0 +1,10 @@
+nodes:
+  - id: outer-module
+    path: outer-module.yml
+    outputs:
+      - tick
+
+  - id: receiver
+    path: receiver/main.py
+    inputs:
+      tick: outer-module/tick
