@@ -5,7 +5,12 @@ nodes:
   - id: module
     module: modules/inner.yml
 
-  - id: receiver
-    path: receiver/main.py
+  # - id: receiver
+  #   path: receiver/main.py
+  #   inputs:
+  #     tick: module/tick
+
+  - id: echo
+    module: modules/echo.yml
     inputs:
       tick: module/tick
