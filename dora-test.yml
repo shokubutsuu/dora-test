@@ -1,8 +1,6 @@
 nodes:
   - id: outer-module
-    path: outer-module.yml
-    outputs:
-      - tick
+    module: outer-module.yml
 
   - id: receiver
     path: receiver/main.py
