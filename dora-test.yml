@@ -1,6 +1,9 @@
 nodes:
-  - id: outer-module
-    module: outer-module.yml
+  # - id: module
+  #   module: outer-module.yml
+  
+  - id: module
+    module: modules/inner.yml
 
   - id: receiver
     path: receiver/main.py
